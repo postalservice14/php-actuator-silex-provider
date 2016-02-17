@@ -3,8 +3,11 @@
     "type": "library",
     "description": "Silex Provider for php-actuator",
     "keywords": [
-        "postalservice14",
-        "php-actuator-silex-provider"
+        "health",
+        "actuator",
+        "php-actuator",
+        "silex",
+        "provider"
     ],
     "homepage": "https://github.com/postalservice14/php-actuator-silex-provider",
     "license": "MIT",
@@ -19,7 +22,7 @@
     "require": {
         "php" : "~5.5|~7.0",
         "silex/silex": "^1.3",
-        "postalservice14/php-actuator": "dev-master"
+        "postalservice14/php-actuator": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit" : "4.*",
