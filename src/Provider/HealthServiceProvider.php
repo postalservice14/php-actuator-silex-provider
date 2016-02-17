@@ -2,7 +2,7 @@
 
 namespace Actuator\Silex\Provider;
 
-use Actuator\Controller\HealthController;
+use Actuator\Silex\Controller\HealthController;
 use Actuator\Health\Health;
 use Actuator\Health\OrderedHealthAggregator;
 use Silex\Application;

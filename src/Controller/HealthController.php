@@ -1,6 +1,6 @@
 <?php
 
-namespace Actuator\Controller;
+namespace Actuator\Silex\Controller;
 
 use Silex\Application;
 use Actuator\Health\Indicator\CompositeHealthIndicator;
