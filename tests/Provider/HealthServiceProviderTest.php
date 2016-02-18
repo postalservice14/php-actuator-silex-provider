@@ -29,7 +29,7 @@ class HealthServiceProviderTest extends \PHPUnit_Framework_TestCase
         $app['health.indicators'] = array('diskspace' => new DiskSpaceHealthIndicator());
 
         $response = $app->handle(Request::create('/health'));
-        $this->assertEquals(Response::HTTP_OK, $response->getStatusCode());
+        $this->assertEquals(200, $response->getStatusCode());
         $this->assertEquals('application/json', $response->headers->get('Content-Type'));
 
         $jsonBody = json_decode($response->getContent(), true);
